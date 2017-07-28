@@ -1,0 +1,31 @@
+.flex-container {
+	display:inline-flex;
+	flex-flow: row wrap;
+	justify-content: center;
+}
+
+.side-bar {
+	width:95%;
+	padding-right: 1em;
+	display:inline-flex;
+}
+
+aside {
+	float: left;
+	order: 0;
+	text-align: center;
+}
+
+nav {
+	order: 2;
+}
+
+article {
+	order: 3;
+	/* content-box sizing sizes elements according to content excluding any border or padding */
+	/* border-box sizing sizes elements according to content including any border or padding */
+	box-sizing: border-box;
+	width: 325px;
+	height: 350px;
+	text-align: justify;
+}
