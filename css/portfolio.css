@@ -6,7 +6,7 @@ aside {
 	float: left;
 	order: -1;
 	flex-direction: column;
-	padding: .75em;
+	padding: 0.75em;
 	text-align: center;
 }
 
@@ -17,26 +17,26 @@ nav {
 header {
 	order: 1;
 	width: 93%;
-	margin: .5em;
-	padding: .5em;
+	margin: 0.5em;
+	padding: 0.5em;
 	text-align: center;
 	border-style: solid;
 	border-color: #EBEDF0;
 	border-radius: 1em;
-	border-width: .25em;
+	border-width: 0.25em;
 	box-sizing: border-box;
 }
 
 footer {
 	order: 10;
 	width: 93%;
-	margin: .5em;
-	padding: .5em;
+	margin: 0.5em;
+	padding: 0.5em;
 	text-align: center;
 	border-style: solid;
 	border-color: #EBEDF0;
 	border-radius: 1em;
-	border-width: .25em;
+	border-width: 0.25em;
 	box-sizing: border-box;
 }
 
@@ -59,6 +59,10 @@ a {
 	color: black;
 }
 
+.resume {
+	padding: 30px;
+}
+
 .font-style {
 	font-family: Helvetica, Verdana, sans-serif;
 	text-align: justify;
@@ -67,7 +71,7 @@ a {
 .project-window {
 	background-color: #EBEDF0;
 	border-style: solid;
-	border-width: .5em;
+	border-width: 0.5em;
 	border-radius: 1em;/*15px;*/
 	border-color: #FAFAFA;
 
@@ -138,7 +142,7 @@ a {
 .project-description {
 	padding-left: 1em;
 	padding-right: 1em;
-	padding-bottom: .5em;
+	padding-bottom: 0.5em;
 }
 
 .button {
